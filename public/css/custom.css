@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(180deg, #87ceeb 0%, #e0f6ff 50%);
+    background-size: contain 5%; /* Atau sesuaikan dengan '100% auto' */
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+}
+.card {
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.9
+    ); /* Opsional: buat card sedikit transparan */
+}
+
+/* untuk baygound tambah kan sebelum linear */
+/* url("../images/logo.png"), */
