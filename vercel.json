@@ -10,8 +10,8 @@
             "dest": "/public/$1"
         },
         {
-            "src": "/(.*\\.(css|js))",
-            "dest": "/public/landing/assets/$1/$2"
+            "src": "/landing/assets/(.*)",
+            "dest": "/public/landing/assets/$1"
         },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
