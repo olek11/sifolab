@@ -13,7 +13,14 @@
             "src": "/landing/assets/(.*)",
             "dest": "/public/landing/assets/$1"
         },
-        { "src": "/(.*)", "dest": "/api/index.php" }
+        {
+            "src": "/landing/img/(.*)",
+            "dest": "/public/landing/img/$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
     ],
     "outputDirectory": "public",
     "env": {
