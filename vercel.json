@@ -6,10 +6,6 @@
     },
     "routes": [
         {
-            "src": "/(.*\\.(png|jpg|jpeg|ico|svg|woff|woff2|ttf|eot))",
-            "dest": "/public/$1"
-        },
-        {
             "src": "/(.*\\.(css|js))",
             "dest": "/public/landing/assets/$1"
         },
