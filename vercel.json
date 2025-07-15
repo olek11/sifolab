@@ -4,10 +4,16 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.7.0" }
     },
+
     "routes": [
         { "src": "/build/(.*)", "dest": "/public/build/$1" },
+        {
+            "src": "/(.*\\.(png|jpg|jpeg|ico|svg|css|js|woff|woff2|ttf|eot))",
+            "dest": "/public/$1"
+        },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
+
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
