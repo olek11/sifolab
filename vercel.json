@@ -5,14 +5,13 @@
         "api/index.php": { "runtime": "vercel-php@0.7.0" }
     },
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        }
+        { "src": "/build/(.*)", "dest": "/public/build/$1" },
+        { "src": "/(.*)", "dest": "/api/index.php" }
     ],
+    "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "true",
+        "APP_DEBUG": "false",
         "APP_URL": "https://yourprojectdomain.com",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
