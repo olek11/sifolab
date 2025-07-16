@@ -4,7 +4,7 @@
     <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
             <a href="{{ route('home')}}" class="logo d-flex align-items-center me-auto">
-                <img src="{{ asset('landing/img/logo.png')}}" alt="logo">
+                <img src="{{ secure_asset('landing/img/logo.png')}}" alt="logo">
                 <h1 class="sitename">SIFOLAB</h1>
             </a>
             <nav id="navmenu" class="navmenu">
@@ -74,16 +74,16 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
-    <script src="{{ asset('landing/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{ asset('landing/assets/vendor/php-email-form/validate.js')}}"></script>
-    <script src="{{ asset('landing/assets/vendor/aos/aos.js')}}"></script>
-    <script src="{{ asset('landing/assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
-    <script src="{{ asset('landing/assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
-    <script src="{{ asset('landing/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js')}}"></script>
-    <script src="{{ asset('landing/assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-    <script src="{{ asset('landing/assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+    <script src="{{ secure_asset('landing/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ secure_asset('landing/assets/vendor/php-email-form/validate.js')}}"></script>
+    <script src="{{ secure_asset('landing/assets/vendor/aos/aos.js')}}"></script>
+    <script src="{{ secure_asset('landing/assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+    <script src="{{ secure_asset('landing/assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
+    <script src="{{ secure_asset('landing/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js')}}"></script>
+    <script src="{{ secure_asset('landing/assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+    <script src="{{ secure_asset('landing/assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
 
     <!-- Main JS File -->
-    <script src="{{ asset('landing/assets/js/main.js')}}"></script>
+    <script src="{{ secure_asset('landing/assets/js/main.js')}}"></script>
 </body>
 </html>
