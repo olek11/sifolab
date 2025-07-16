@@ -74,14 +74,14 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
-    <script src="{{ secure_asset('public/landing/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{ secure_asset('public/landing/assets/vendor/php-email-form/validate.js')}}"></script>
-    <script src="{{ secure_asset('public/landing/assets/vendor/aos/aos.js')}}"></script>
-    <script src="{{ secure_asset('public/landing/assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
-    <script src="{{ secure_asset('public/landing/assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
-    <script src="{{ secure_asset('public/landing/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js')}}"></script>
-    <script src="{{ secure_asset('public/landing/assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-    <script src="{{ secure_asset('public/landing/assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/php-email-form/validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/js/glightbox.min.js"></script>
+    <script src="https://unpkg.com/purecounterjs@1/dist/purecounter_vanilla.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- Main JS File -->
     <script src="{{ secure_asset('public/landing/assets/js/main.js')}}"></script>
