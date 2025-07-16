@@ -15,8 +15,8 @@
             "dest": "/public/$1"
         },
         {
-            "src": "/landing/assets/(.*)",
-            "dest": "/public/landing/assets/$1"
+            "src": "/landing/asset/(.*\\.(css|js))",
+            "dest": "/public/landing/asset/$1"
         },
         {
             "src": "/landing/img/(.*)",
