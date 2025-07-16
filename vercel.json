@@ -4,13 +4,12 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.7.0" }
     },
-    "builds": [
-        {
-            "src": "src/main.ts",
-            "use": "@vercel/node"
-        }
-    ],
+
     "routes": [
+        {
+            "src": "/build/assets/(.*)",
+            "dest": "/build/assets/$1"
+        },
         {
             "src": "/(.*\\.(png|jpg|jpeg|ico|svg|woff|woff2|ttf|eot))",
             "dest": "/public/$1"
