@@ -5,14 +5,15 @@
         "api/index.php": { "runtime": "vercel-php@0.7.3" }
     },
 
-    "builds": [
+    "routes": [
         {
             "src": "public/**",
             "use": "@vercel/static"
-        }
-    ],
-
-    "routes": [
+        },
+        {
+            "src": "public/index.php",
+            "use": "@vercel/php"
+        },
         {
             "src": "/build/assets/(.*)",
             "dest": "/build/assets/$1"
