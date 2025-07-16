@@ -25,10 +25,10 @@
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Main CSS File -->
-    <link href="{{ secure_asset('public/landing/assets/css/main.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('landing/assets/css/main.css')}}" rel="stylesheet">
 
     <!-- custum CSS -->
-    <link href="{{ secure_asset('public/css/landingcustom.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/landingcustom.css') }}" rel="stylesheet">
 
     <!-- =======================================================
     * Template Name: eNno
