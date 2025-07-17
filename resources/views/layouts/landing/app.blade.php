@@ -1,32 +1,5 @@
-@include('layouts.landing.header')
-
 <body class="index-page">
-    <header id="header" class="header d-flex align-items-center sticky-top">
-        <div class="container-fluid container-xl position-relative d-flex align-items-center">
-            <a href="{{ route('home')}}" class="logo d-flex align-items-center me-auto">
-                <img src="{{ secure_asset('public/landing/img/logo.png')}}" alt="logo">
-                <h1 class="sitename">SIFOLAB</h1>
-            </a>
-            <nav id="navmenu" class="navmenu">
-                <ul>
-                    <li><a href="{{ route('home')}}" class="active">Home</a></li>
-                    <li><a href="{{ route('daftaralat') }}">Daftar Alat</a></li>
-                    <li><a href="{{ route('sop') }}">SOP Laboratorium</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav>
-            <nav class="mx-3 flex flex-1 justify-start">
-                @auth
-                    <a class="btn-getstarted" href="{{ route('DashboardUser') }}">Dashboard</a>
-                @else
-                    <a class="btn-getstarted" href="{{ route('login') }}">Login</a>
-                @endauth
-            </nav>
-        </div>
-    </header>
+    @include('layouts.landing.header')
 
     <main class="main">
         @yield('content')
@@ -73,7 +46,7 @@
     <!-- Preloader -->
     <div id="preloader"></div>
 
-    <!-- Vendor JS Files -->
+    <!-- Vendor JS Files via CDN -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://unpkg.com/glightbox/dist/js/glightbox.min.js"></script>
@@ -84,6 +57,6 @@
     <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/php-email-form/validate.js"></script>
 
     <!-- Main JS File -->
-    <script src="{{ secure_asset('landing/assets/js/main.js')}}"></script>
+    <script src="{{ secure_asset('landing/assets/js/main.js') }}"></script>
 </body>
 </html>
