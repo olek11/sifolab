@@ -9,8 +9,8 @@
     <meta name="keywords" content="">
 
     <!-- Favicons -->
-    <link href="{{ secure_asset('public/landing/assets/img/favicon.png')}}" rel="icon">
-    <link href="{{ secure_asset('public/landing/assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+    <link href="{{ secure_asset('landing/assets/img/favicon.png')}}" rel="icon">
+    <link href="{{ secure_asset('landing/assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -18,10 +18,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="https://cdn.jsdelivr.net/npm/[email protected]/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/[email protected]/dist/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap-icons.css" rel="stylesheet"> <!-- Catatan: Bootstrap Icons mungkin tidak tersedia di StackPath, gunakan alternatif jika perlu -->
     <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/[email protected]/dist/css/glightbox.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Main CSS File -->
